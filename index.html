@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="vieuwport" content="width=device-width, initial-scale=1.0"/>
+<title> Food Hotspots Website</title>
+
+<!-- link to CSS -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Box Icons -->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- Link swiper CSS -->
+  <link 
+  rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>  
+<body>
+
+<!-- Navbar -->
+ <header> 
+  <div class="FOOD-HOTSPOTS">
+    <img src="img/about 1.png" alt="">
+    <span><b>FOOD HOTSPOTS</b></span>
+  </div>
+
+<!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button id="search-button"><i class='bx bx-search'></i></button>
+    </div>
+
+<!-- Menu Icon -->
+ <div class="bx bx-menu" id="menu-icon"></div>
+
+<!--Nav list -->
+<ul class="navbar">
+  <li><a href="#HOME" class="HOME-active">HOME</a></li>
+  <li><a href="#CATEGORIES">CATEGORIES</a></li>
+  <li><a href="#TRENDS">TRENDS</a></li>
+  <li><a href="#ABOUT">ABOUT</a></li>
+  <li><a href="#CONTACT">CONTACT</a></li>
+</ul>
+
+<!-- Profile -->
+ <div class="profile">
+   <img src="img/about 1.png" alt="">
+   <span>Profile</span>
+   <i class='bx bx-caret-down'></i>
+ </div>
+</header>
+
+ <!-- home -->
+  <section class="HOME swiper" id="HOME">
+   <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide container">
+         <div class="HOME-text">
+         <span>We are foodies</span>
+         <h1>Search your <br> food hotspot<br> in the city you're in</h1>
+         <a href="#" class="btn">Find out more<i class='bx bx-right-arrow-alt'></i></a>
+      </div>
+      <img src="img/home1.avif" alt="">
+    </div>
+
+<!-- Slide 2 -->
+ <div class="swiper-slide container">
+         <div class="HOME-text">
+         <span>We are foodies</span>
+         <h1>Search your <br> food hotspot<br> in the city you're in</h1>
+         <a href="#" class="btn">Find out more<i class='bx bx-right-arrow-alt'></i></a>
+      </div>
+      <img src="img/home2.avif" alt="">  
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="swiper-slide container">
+      <div class="HOME-text">
+      <span>We are foodies</span>
+      <h1>Search your <br> food hotspot<br> in the city you're in</h1>
+      <a href="#" class="btn">Find out more<i class='bx bx-right-arrow-alt'></i></a>
+   </div>
+   <img src="img/home3.jpg" alt="">
+ </div>
+</div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </section>
+
+  <!-- CATEGORIES -->
+<section class="CATEGORIES" id="CATEGORIES">
+<div class="heading">
+  <h1>Browse Our Hottest <br><span>CATEGORIES</h1>
+    <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt'></i></a>
+</div>
+
+<!--container content-->
+<div class="categories-container">
+
+  <!-- box 1 -->
+  <div class="box box1">
+    <img src="img/restaurant 1.jpg" alt="">
+    <h2>Popular Cuisines</h2>
+    <span>Other Items</span>
+    <i class='bx bx-right-arrow-alt'></i>
+  </div>
+
+  <!-- box 2 -->
+  <div class="box box2">
+    <img src="img/restaurant 2.webp" alt="">
+    <h2>Popular Restaurants</h2>
+    <span>Other Items</span>
+    <i class='bx bx-right-arrow-alt'></i>
+  </div>
+
+  <!-- box 3 -->
+  <div class="box box3">
+    <img src="img/restaurant 3.jpg" alt="">
+    <h2>Other food & drinks</h2>
+    <span>Other Items</span>
+    <i class='bx bx-right-arrow-alt'></i>
+  </div>
+</div>
+</section>
+
+<!-- Data Container -->
+<section id="data-container">
+</section>
+
+<!-- TRENDS -->
+<section class="TRENDS" id="TRENDS">
+<div class="heading">
+  <h1>Restaurants and Cafés that are <br><span>TRENDING</h1>
+  <ul id="data-list"></ul>
+    <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt'></i></a>
+</div>
+
+<!-- TRENDS content -->
+ <div class="trends-content">
+
+  <!-- box 1 -->
+  <div class="box">
+    <img src="img/p1.webp" alt="">
+    <span>Trending places</span>
+    <h2>Look for the<br>best spot to eat!</h2>
+    <h3 class="price">€...,-<span>/euro</span></h3>
+    <i class='bx bx-restaurant'></i>
+    <i class='bx bx-heart'></i>
+    <span class="Trending">Trending now</span>
+  </div>
+
+   <!-- box 2 -->
+   <div class="box">
+    <img src="img/p2.jpg" alt="">
+    <span>Trending places</span>
+    <h2>Look for the<br>best spot to eat!</h2>
+    <h3 class="price">€...,-<span>/euro</span></h3>
+    <i class='bx bx-restaurant'></i>
+    <i class='bx bx-heart'></i>
+    <span class="Trending">Trending now</span>
+  </div>
+
+   <!-- box 3 -->
+   <div class="box">
+    <img src="img/p3.jpeg" alt="">
+    <span>Trending places</span>
+    <h2>Look for the<br>best spot to eat!</h2>
+    <h3 class="price">€...,-<span>/euro</span></h3>
+    <i class='bx bx-restaurant'></i>
+    <i class='bx bx-heart'></i>
+    <span class="Trending">Trending now</span>
+  </div>
+ </div> 
+</section>
+
+  <!--ABOUT -->
+ <section class="ABOUT" id="ABOUT">
+<img src="img/about 1.png" alt="">
+<div class="ABOUT-text">
+  <span>About Us</span>
+  <p>Food Hotspots is your ultimate guide to discovering the best dining experiences around the world. From hidden gems to popular eateries, we bring you curated recommendations, reviews, and insider tips to satisfy your culinary cravings. Whether you're a foodie, a traveler, or just looking for a great meal, Food Hotspots has got you covered</p>
+  <p>Discover the hidden culinary gems and must-visit eateries around the world with Food Hotspots your ultimate guide to unforgettable dining experiences</p>
+  <a href="#" class="btn">Learn More<i class='bx bx-right-arrow-alt'></i></a>
+</div>
+</section>
+
+ <!--CONTACT-->
+<section class="CONTACT" id="CONTACT">
+  <div class="CONTACT-text">
+    <span>Contact Us</span>
+    <p>We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us.</p>
+    <p><b>Email:</b> contact@foodhotspots.com</p>
+    <p><b>Phone:</b> +31 *** *** ***</p>
+    <p><b>Address:</b> Food Hotspots 123 Culinary Street Enschede, Overijssel Nederland</p>
+      <p><b>Business Hours:</b> Monday - Friday: 9:00 AM - 6:00 PM <br> Saturday: 10:00 AM - 4:00 PM <br>Sunday: Closed</br> </p>
+  </div>
+</section>
+
+<!-- Footer -->
+ <section class="footer" id="footer">
+  <div class="footer-box">
+    <a href="#" class="logo"><i class='bx bx-food-tag'></i></i>FOOD HOTSPOTS</a>
+    <p><b>You can also find us on social media!</b></p>
+    <div class="social">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </div>
+
+  <div class="footer-box">
+    <h2>CATEGORIES</h2>
+    <a href="#">Popular cousines</a>
+    <a href="#">Popular restaurants</a>
+    <a href="#">Other food & drinks</a>
+  </div>
+  <div class="footer-box">
+    <h2>Useful Links</h2>
+    <a href="#">Terms of Use</a>
+    <a href="#">Contact</a>
+    <form action="">
+      <i class='bx bxs-envelope'></i>
+      <input type="email" name="" id="" placeholder="Enter your email">
+      <i class='bx bx-arrow-back bx-rotate-180' ></i>
+
+    </form>
+  </div>
+ </section>
+<!-- Copyright -->
+ <div class="copyright">
+  <p>© 2025 Food Hotspots. All rights reserved.</p>
+ </div>
+
+  <!-- Swiper JS -->
+  <script src="https://upkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- link to JS -->
+   <script src="main.js"></script>
+
+   <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155960.00469758234!2d4.739153093437185!3d52.35455101974082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam!5e0!3m2!1snl!2snl!4v1737034433469!5m2!1snl!2snl" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+   <script>
+    fetch('https://api.data.amsterdam.nl/dcatd/datasets/y5I1tIFyd9e8aA')
+    .then(res =>{
+      return res.json();
+    })
+    .then(data =>{
+      data.forEach(location =>{
+        const markup = '<li>€{location name}</li>';
+
+        document.querySelector('ul')
+      });
+    } )
+    .catch(error => console.log(error));
+   </script>
+</body>
+</html>
